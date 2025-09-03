@@ -14,15 +14,10 @@ public class PlaylistMusical {
     public void adicionarMusica(String musica) {
         this.musicas.add(musica);
         System.out.println("Musica '" + musica + "' adicionada a playlist '" + this.nome + "'.");
-        if (this.musicas.size() == 1 && this.indiceAtual == -1) {
-            this.indiceAtual = 0;
-            this.musicaAtual = musica;
-            System.out.println("Tocando a primeira musica: " + this.musicaAtual);
-        }
     }
 
     public void tocarProxima() {
-        this.indiceAtual = this.indiceAtual + 1;
+        this.indiceAtual ++;
         this.musicaAtual = this.musicas.get(this.indiceAtual);
         System.out.println("Tocando agora: " + this.musicaAtual);
     }

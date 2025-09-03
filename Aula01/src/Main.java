@@ -76,27 +76,27 @@ public class Main {
 //                meuPet.status();
         //////////////////////////////////////////////////////////////////
         /////////////////////////////////////////////////////////////////
-//                System.out.println(" Criando Playlist");
-//                PlaylistMusical minhaPlaylist = new PlaylistMusical("KaleoList");
-//
-//                System.out.println("\nAdicionando Musicas");
-//                minhaPlaylist.adicionarMusica("Musica K");
-//                minhaPlaylist.adicionarMusica("Musica A");
-//                minhaPlaylist.adicionarMusica("Musica L");
-//                minhaPlaylist.adicionarMusica("Musica E");
-//                minhaPlaylist.adicionarMusica("Musica O");
-//
-//                System.out.println("\nTocando todas as musicas em sequência");
-//                minhaPlaylist.tocarProxima();
-//                for (int i = 1; i < minhaPlaylist.getTotalMusicas(); i++) {
-//                    minhaPlaylist.tocarProxima();
-//                }
-//
-//                System.out.println("\n Fim da demonstracao ");
-//                minhaPlaylist.mostrarMusicaAtual();
+                System.out.println(" Criando Playlist");
+                PlaylistMusical minhaPlaylist = new PlaylistMusical("KaleoList");
+
+                System.out.println("\nAdicionando Musicas");
+                minhaPlaylist.adicionarMusica("Musica K");
+                minhaPlaylist.adicionarMusica("Musica A");
+                minhaPlaylist.adicionarMusica("Musica L");
+                minhaPlaylist.adicionarMusica("Musica E");
+                minhaPlaylist.adicionarMusica("Musica O");
+
+                System.out.println("\nTocando todas as musicas em sequência");
+                minhaPlaylist.tocarProxima();
+                for (int i = 1; i < minhaPlaylist.getTotalMusicas(); i++) {
+                    minhaPlaylist.tocarProxima();
+                }
+
+                System.out.println("\n Fim da demonstracao ");
+                minhaPlaylist.mostrarMusicaAtual();
         ////////////////////////////////////////////////////////
         ///////////////////////////////////////////////////////
-//        DiarioSecreto meuDiario = new DiarioSecreto("Alice", "12345");
+//        DiarioSecreto meuDiario = new DiarioSecreto("Kaleo", "12345");
 //
 //        System.out.println("Tentando ler o diario com senha errada:");
 //        meuDiario.ler("senhaerrada");
@@ -137,7 +137,7 @@ public class Main {
 ////        lampadaSala.trocarCor("vermelho");
         ///////////////////////////////////////////////////
         ///////////////////////////////////////////////////
-        RoboComEnergia robo = new RoboComEnergia("R2D2");
+        RoboComEnergia robo = new RoboComEnergia("KaleoRobo");
 
         System.out.println("Status inicial:");
         robo.status();
