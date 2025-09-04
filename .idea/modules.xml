@@ -4,9 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Aula01/Aula01.iml" filepath="$PROJECT_DIR$/Aula01/Aula01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula02/Aula02.iml" filepath="$PROJECT_DIR$/Aula02/Aula02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula03/Aula03.iml" filepath="$PROJECT_DIR$/Aula03/Aula03.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/AulaPOO.iml" filepath="$PROJECT_DIR$/.idea/AulaPOO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula03/PlataformaTransporte/PlataformaTransporte.iml" filepath="$PROJECT_DIR$/Aula03/PlataformaTransporte/PlataformaTransporte.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula03/RpgOnline/RpgOnline.iml" filepath="$PROJECT_DIR$/Aula03/RpgOnline/RpgOnline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula03/StreamingMultimidia/StreamingMultimidia.iml" filepath="$PROJECT_DIR$/Aula03/StreamingMultimidia/StreamingMultimidia.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula02/ex1/ex1.iml" filepath="$PROJECT_DIR$/Aula02/ex1/ex1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula02/ex2/ex2.iml" filepath="$PROJECT_DIR$/Aula02/ex2/ex2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula02/ex3/ex3.iml" filepath="$PROJECT_DIR$/Aula02/ex3/ex3.iml" />
       <module fileurl="file://$PROJECT_DIR$/exJogo/exJogo.iml" filepath="$PROJECT_DIR$/exJogo/exJogo.iml" />
     </modules>
   </component>
