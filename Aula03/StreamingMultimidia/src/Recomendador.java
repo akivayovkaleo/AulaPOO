@@ -18,14 +18,12 @@ public class Recomendador {
     public List<Conteudo> recomendarPorHistorico(Usuario usuario) {
         List<Conteudo> recomendacoes = new ArrayList<>();
 
-        // Contar gêneros assistidos
         Map<String, Integer> generosAssistidos = new HashMap<>();
         for (Conteudo conteudo : usuario.getHistorico()) {
             generosAssistidos.put(conteudo.getGenero(),
                     generosAssistidos.getOrDefault(conteudo.getGenero(), 0) + 1);
         }
 
-        // Encontrar o gênero mais assistido
         String generoFavorito = null;
         int maxCount = 0;
         for (Map.Entry<String, Integer> entry : generosAssistidos.entrySet()) {
@@ -35,7 +33,6 @@ public class Recomendador {
             }
         }
 
-        // Recomendar conteúdos do gênero favorito
         if (generoFavorito != null && conteudosPorGenero.containsKey(generoFavorito)) {
             recomendacoes.addAll(conteudosPorGenero.get(generoFavorito));
         }

@@ -14,7 +14,6 @@ public class Filme extends Conteudo {
         return "Filme";
     }
 
-    // Getters
     public String getDiretor() {
         return diretor;
     }

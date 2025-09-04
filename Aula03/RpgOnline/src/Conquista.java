@@ -8,7 +8,6 @@ public class Conquista extends Recompensa {
         this.icone = icone;
     }
 
-    // Getters
     public String getCriterio() {
         return criterio;
     }
@@ -17,7 +16,6 @@ public class Conquista extends Recompensa {
         return icone;
     }
 
-    // Setters
     public void setCriterio(String criterio) {
         this.criterio = criterio;
     }

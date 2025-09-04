@@ -24,7 +24,7 @@ public class Personagem {
     public void ganharExperiencia(int experienciaGanha) {
         this.experiencia += experienciaGanha;
 
-        // Verificar se sobe de nível
+
         while (this.experiencia >= this.experienciaParaProximoNivel) {
             subirNivel();
         }
@@ -37,7 +37,7 @@ public class Personagem {
         this.pontosVidaMaximos += 20;
         this.pontosVida = this.pontosVidaMaximos;
 
-        // Adicionar nova habilidade a cada 3 níveis
+
         if (this.nivel % 3 == 0) {
             this.habilidades.add("Habilidade Nível " + this.nivel);
         }
@@ -52,7 +52,7 @@ public class Personagem {
         this.pontosVida = Math.min(this.pontosVida + pontos, this.pontosVidaMaximos);
     }
 
-    // Getters
+
     public String getNome() {
         return nome;
     }

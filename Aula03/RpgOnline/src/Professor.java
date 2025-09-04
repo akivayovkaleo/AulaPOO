@@ -28,7 +28,7 @@ public class Professor {
         return alunosTurma;
     }
 
-    // Getters
+
     public String getNome() {
         return nome;
     }

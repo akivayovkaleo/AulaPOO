@@ -44,7 +44,6 @@ public class Usuario {
         return new ArrayList<>(avaliacoes);
     }
 
-    // Getters e Setters
     public String getNome() {
         return nome;
     }

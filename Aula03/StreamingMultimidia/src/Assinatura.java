@@ -13,7 +13,6 @@ public class Assinatura {
         this.ativa = true;
     }
 
-    // === GETTERS ===
     public String getTipo() {
         return tipo;
     }
@@ -30,7 +29,6 @@ public class Assinatura {
         return ativa;
     }
 
-    // === SETTERS ===
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
@@ -47,7 +45,6 @@ public class Assinatura {
         this.ativa = ativa;
     }
 
-    // Métodos adicionais
     public void renovar() {
         this.dataInicio = LocalDate.now();
         this.ativa = true;

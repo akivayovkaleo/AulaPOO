@@ -13,7 +13,6 @@ public class Documentario extends Conteudo {
         return "Documentário";
     }
 
-    // Getters
     public String getTema() {
         return tema;
     }

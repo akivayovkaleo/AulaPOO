@@ -13,7 +13,6 @@ public class Musica extends Conteudo {
         return "Música";
     }
 
-    // Getters
     public String getArtista() {
         return artista;
     }

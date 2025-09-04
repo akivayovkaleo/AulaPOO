@@ -20,7 +20,6 @@ public class Playlist {
         itens.remove(conteudo);
     }
 
-    // Getters
     public String getNome() {
         return nome;
     }

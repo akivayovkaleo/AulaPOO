@@ -5,7 +5,7 @@ public class Missao {
     private String titulo;
     private String descricao;
     private String disciplina;
-    private String dificuldade; // "Fácil", "Médio", "Difícil"
+    private String dificuldade;
     private List<Questao> questoes;
     private List<Recompensa> recompensas;
     private int experienciaRecompensa;
@@ -56,7 +56,7 @@ public class Missao {
         this.emBatalha = emBatalha;
     }
 
-    // Getters
+
     public String getTitulo() {
         return titulo;
     }

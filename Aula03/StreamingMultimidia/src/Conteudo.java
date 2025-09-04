@@ -1,6 +1,6 @@
 public abstract class Conteudo {
     protected String titulo;
-    protected int duracao; // em minutos
+    protected int duracao;
     protected String genero;
     protected double avaliacaoMedia;
     protected int totalAvaliacoes;
@@ -21,7 +21,6 @@ public abstract class Conteudo {
         this.totalAvaliacoes++;
     }
 
-    // Getters
     public String getTitulo() {
         return titulo;
     }

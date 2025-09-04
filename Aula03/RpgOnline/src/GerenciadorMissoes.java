@@ -42,7 +42,7 @@ public class GerenciadorMissoes {
         return new ArrayList<>(batalhasAtivas);
     }
 
-    // Getters
+
     public List<Missao> getMissoesDisponiveis() {
         return new ArrayList<>(missoesDisponiveis);
     }

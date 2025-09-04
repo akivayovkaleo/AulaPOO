@@ -13,7 +13,6 @@ public class Serie extends Conteudo {
         return "Série";
     }
 
-    // Getters
     public int getTemporadas() {
         return temporadas;
     }

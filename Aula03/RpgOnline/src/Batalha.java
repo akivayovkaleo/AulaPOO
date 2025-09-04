@@ -30,7 +30,6 @@ public class Batalha {
             this.pontosVidaInimigo = 0;
             this.concluida = true;
 
-            // Todos os participantes ganham recompensas
             for (Aluno aluno : participantes) {
                 aluno.concluirMissao(missao);
             }
@@ -46,7 +45,6 @@ public class Batalha {
         }
     }
 
-    // Getters
     public String getNome() {
         return nome;
     }

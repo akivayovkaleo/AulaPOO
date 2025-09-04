@@ -7,7 +7,6 @@ public class Main {
     public static void main(String[] args) {
         out.println("=== Sistema de Streaming Multimídia ===\n");
 
-        // Criando usuários
         Usuario usuarioGratuito = new Usuario("Carlos Silva", false);
         Usuario usuarioPremium = new Usuario("Ana Costa", true);
 
@@ -15,7 +14,6 @@ public class Main {
         out.println("- " + usuarioGratuito.getNome() + " (Gratuito)");
         out.println("- " + usuarioPremium.getNome() + " (Premium)\n");
 
-        // Criando conteúdos
         Filme filme1 = new Filme("Matrix", 136, "Ficção Científica", "Lana Wachowski", 1999);
         Filme filme2 = new Filme("O Poderoso Chefão", 175, "Drama", "Francis Ford Coppola", 1972);
         Serie serie1 = new Serie("Breaking Bad", 45, "Drama", 5, 62);
@@ -29,7 +27,6 @@ public class Main {
         out.println("- " + doc1.getTitulo() + " (" + doc1.getTipo() + ")");
         out.println("- " + musica1.getTitulo() + " (" + musica1.getTipo() + ")\n");
 
-        // Criando serviço de recomendação
         Recomendador recomendador = new Recomendador();
         recomendador.adicionarConteudo(filme1);
         recomendador.adicionarConteudo(filme2);
@@ -37,26 +34,22 @@ public class Main {
         recomendador.adicionarConteudo(doc1);
         recomendador.adicionarConteudo(musica1);
 
-        // Usuário gratuito assiste alguns conteúdos
         usuarioGratuito.adicionarAoHistorico(filme1);
         usuarioGratuito.adicionarAoHistorico(serie1);
         out.println(usuarioGratuito.getNome() + " assistiu: " + filme1.getTitulo() + " e " + serie1.getTitulo());
 
-        // Usuário premium assiste mais conteúdos
         usuarioPremium.adicionarAoHistorico(filme1);
         usuarioPremium.adicionarAoHistorico(filme2);
         usuarioPremium.adicionarAoHistorico(doc1);
         out.println(usuarioPremium.getNome() + " assistiu: " + filme1.getTitulo() + ", " +
                 filme2.getTitulo() + " e " + doc1.getTitulo());
 
-        // Criando playlists
         usuarioPremium.criarPlaylist("Minha Lista");
         usuarioPremium.getPlaylists().get(0).adicionarConteudo(filme2);
         usuarioPremium.getPlaylists().get(0).adicionarConteudo(musica1);
         out.println("\n" + usuarioPremium.getNome() + " criou uma playlist com " +
                 usuarioPremium.getPlaylists().get(0).getItens().size() + " itens");
 
-        // Avaliações
         Avaliacao aval1 = new Avaliacao(usuarioPremium, filme1, 5, "Excelente filme!");
         Avaliacao aval2 = new Avaliacao(usuarioGratuito, serie1, 4, "Muito boa série");
         usuarioPremium.adicionarAvaliacao(aval1);
@@ -68,14 +61,12 @@ public class Main {
         out.println("- " + aval2.getUsuario().getNome() + " avaliou " +
                 aval2.getConteudo().getTitulo() + " com nota " + aval2.getNota());
 
-        // Mostrando avaliações médias
         out.println("\nAvaliações médias:");
         out.println("- " + filme1.getTitulo() + ": " + String.format("%.1f", filme1.getAvaliacaoMedia()) +
                 " (" + filme1.getTotalAvaliacoes() + " avaliações)");
         out.println("- " + serie1.getTitulo() + ": " + String.format("%.1f", serie1.getAvaliacaoMedia()) +
                 " (" + serie1.getTotalAvaliacoes() + " avaliações)");
 
-        // Recomendações
         out.println("\nRecomendações para " + usuarioPremium.getNome() + ":");
         List<Conteudo> recomendacoesPremium = recomendador.recomendarPorHistorico(usuarioPremium);
         for (Conteudo conteudo : recomendacoesPremium) {
@@ -88,7 +79,6 @@ public class Main {
             out.println("- " + conteudo.getTitulo() + " (" + conteudo.getTipo() + ")");
         }
 
-        // Informações da assinatura premium
         if (usuarioPremium.getAssinatura() != null) {
             out.println("\nAssinatura de " + usuarioPremium.getNome() + ":");
             out.println("- Tipo: " + usuarioPremium.getAssinatura().getTipo());
