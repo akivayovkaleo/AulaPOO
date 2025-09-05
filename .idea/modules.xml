@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Aula01/Aula01.iml" filepath="$PROJECT_DIR$/Aula01/Aula01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula02/Aula02.iml" filepath="$PROJECT_DIR$/Aula02/Aula02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula03/Aula03.iml" filepath="$PROJECT_DIR$/Aula03/Aula03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula04/Aula04.iml" filepath="$PROJECT_DIR$/Aula04/Aula04.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/AulaPOO.iml" filepath="$PROJECT_DIR$/.idea/AulaPOO.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula03/PlataformaTransporte/PlataformaTransporte.iml" filepath="$PROJECT_DIR$/Aula03/PlataformaTransporte/PlataformaTransporte.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula03/RpgOnline/RpgOnline.iml" filepath="$PROJECT_DIR$/Aula03/RpgOnline/RpgOnline.iml" />
@@ -13,6 +14,12 @@
       <module fileurl="file://$PROJECT_DIR$/Aula02/ex2/ex2.iml" filepath="$PROJECT_DIR$/Aula02/ex2/ex2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula02/ex3/ex3.iml" filepath="$PROJECT_DIR$/Aula02/ex3/ex3.iml" />
       <module fileurl="file://$PROJECT_DIR$/exJogo/exJogo.iml" filepath="$PROJECT_DIR$/exJogo/exJogo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula04/exemploHeranca/exemploHeranca.iml" filepath="$PROJECT_DIR$/Aula04/exemploHeranca/exemploHeranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula04/heranca01/heranca01.iml" filepath="$PROJECT_DIR$/Aula04/heranca01/heranca01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula04/heranca02/heranca02.iml" filepath="$PROJECT_DIR$/Aula04/heranca02/heranca02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula04/heranca03/heranca03.iml" filepath="$PROJECT_DIR$/Aula04/heranca03/heranca03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula04/herancaBonus/herancaBonus.iml" filepath="$PROJECT_DIR$/Aula04/herancaBonus/herancaBonus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula04/herenca04/herenca04.iml" filepath="$PROJECT_DIR$/Aula04/herenca04/herenca04.iml" />
     </modules>
   </component>
 </project>

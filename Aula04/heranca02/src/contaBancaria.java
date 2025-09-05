@@ -1,0 +1,36 @@
+public class contaBancaria {
+    protected String titular;
+    protected double saldo;
+
+    public contaBancaria(String titular, double saldo) {
+        this.titular = titular;
+        this.saldo = saldo;
+    }
+
+    public String getTitular() {
+        return titular;
+    }
+
+    public void setTitular(String titular) {
+        this.titular = titular;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public void depositar(double valor) {
+        if (valor > 0) {
+            this.saldo += valor;
+        }
+    }
+
+    public void consultarSaldo() {
+        System.out.println("Titular: " + titular);
+        System.out.println("Saldo: R$" + saldo);
+    }
+}
