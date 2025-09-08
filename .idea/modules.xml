@@ -6,9 +6,16 @@
       <module fileurl="file://$PROJECT_DIR$/Aula02/Aula02.iml" filepath="$PROJECT_DIR$/Aula02/Aula02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula03/Aula03.iml" filepath="$PROJECT_DIR$/Aula03/Aula03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula04/Aula04.iml" filepath="$PROJECT_DIR$/Aula04/Aula04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula05/Aula05.iml" filepath="$PROJECT_DIR$/Aula05/Aula05.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/AulaPOO.iml" filepath="$PROJECT_DIR$/.idea/AulaPOO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JogoPassaTempo/JogoPassaTempo.iml" filepath="$PROJECT_DIR$/JogoPassaTempo/JogoPassaTempo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula03/PlataformaTransporte/PlataformaTransporte.iml" filepath="$PROJECT_DIR$/Aula03/PlataformaTransporte/PlataformaTransporte.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula03/RpgOnline/RpgOnline.iml" filepath="$PROJECT_DIR$/Aula03/RpgOnline/RpgOnline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula05/SistemaCompra/SistemaCompra.iml" filepath="$PROJECT_DIR$/Aula05/SistemaCompra/SistemaCompra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula05/SistemaConta/SistemaConta.iml" filepath="$PROJECT_DIR$/Aula05/SistemaConta/SistemaConta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula05/SistemaEstoque/SistemaEstoque.iml" filepath="$PROJECT_DIR$/Aula05/SistemaEstoque/SistemaEstoque.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula05/SistemaHotel/SistemaHotel.iml" filepath="$PROJECT_DIR$/Aula05/SistemaHotel/SistemaHotel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula05/SistemaPagamento/SistemaPagamento.iml" filepath="$PROJECT_DIR$/Aula05/SistemaPagamento/SistemaPagamento.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula03/StreamingMultimidia/StreamingMultimidia.iml" filepath="$PROJECT_DIR$/Aula03/StreamingMultimidia/StreamingMultimidia.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula02/ex1/ex1.iml" filepath="$PROJECT_DIR$/Aula02/ex1/ex1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula02/ex2/ex2.iml" filepath="$PROJECT_DIR$/Aula02/ex2/ex2.iml" />
@@ -20,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/Aula04/heranca03/heranca03.iml" filepath="$PROJECT_DIR$/Aula04/heranca03/heranca03.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula04/herancaBonus/herancaBonus.iml" filepath="$PROJECT_DIR$/Aula04/herancaBonus/herancaBonus.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula04/herenca04/herenca04.iml" filepath="$PROJECT_DIR$/Aula04/herenca04/herenca04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aula05/sistemaHeroi.iml" filepath="$PROJECT_DIR$/Aula05/sistemaHeroi.iml" />
     </modules>
   </component>
 </project>
